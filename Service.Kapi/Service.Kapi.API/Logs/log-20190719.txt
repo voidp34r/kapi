@@ -1,0 +1,16 @@
+2019-07-19 13:57:15.464 +00:00 [Information] web api service is started.
+2019-07-19 14:00:21.055 +00:00 [Information] web api service is started.
+2019-07-19 14:03:58.613 +00:00 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 268.9327 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:""][User-Agent:"curl/7.64.0"]
+2019-07-19 14:30:51.868 +00:00 [Information] web api service is started.
+2019-07-19 16:16:37.343 +00:00 [Information] web api service is started.
+2019-07-19 16:35:40.756 +00:00 [Information] web api service is started.
+2019-07-19 16:55:47.085 +00:00 [Information] web api service is started.
+2019-07-19 17:00:29.972 +00:00 [Information] web api service is started.
+2019-07-19 17:02:00.114 +00:00 [Information] web api service is started.
+2019-07-19 17:18:34.001 +00:00 [Information] web api service is started.
+2019-07-19 17:51:48.279 +00:00 [Information] HTTP "GET" "/api/v1/users/8aa8ebc1-d761-4fe6-8e43-a10e19f28b72" responded 307 in 93.8067 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:"http://localhost:8081/auth/login"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-19 18:06:43.002 +00:00 [Information] web api service is started.
+2019-07-19 19:42:01.113 +00:00 [Information] HTTP "GET" "/api/v1/users/8aa8ebc1-d761-4fe6-8e43-a10e19f28b72" responded 307 in 221.4366 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:"http://localhost:8081/"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-19 19:45:33.577 +00:00 [Information] web api service is started.
+2019-07-19 19:49:35.522 +00:00 [Information] HTTP "GET" "/api/v1/users/8aa8ebc1-d761-4fe6-8e43-a10e19f28b72" responded 307 in 63.4669 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:"http://localhost:8081/"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-19 19:51:15.687 +00:00 [Information] HTTP "GET" "/api/v1/users/8aa8ebc1-d761-4fe6-8e43-a10e19f28b72" responded 307 in 0.1423 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:"http://localhost:8081/"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]

@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj": {}
+  },
+  "projects": {
+    "/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj",
+        "projectName": "Service.Kapi.DAL.MySql",
+        "projectPath": "/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/Service.Kapi/Service.Kapi.DAL.MySql/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.7, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

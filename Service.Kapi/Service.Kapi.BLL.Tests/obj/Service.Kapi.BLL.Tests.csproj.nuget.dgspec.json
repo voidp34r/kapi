@@ -1,0 +1,224 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL.Tests/Service.Kapi.BLL.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL.Tests/Service.Kapi.BLL.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL.Tests/Service.Kapi.BLL.Tests.csproj",
+        "projectName": "Service.Kapi.BLL.Tests",
+        "projectPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL.Tests/Service.Kapi.BLL.Tests.csproj",
+        "packagesPath": "/home/voidp34r/.nuget/packages/",
+        "outputPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/voidp34r/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL/Service.Kapi.BLL.csproj": {
+                "projectPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL/Service.Kapi.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL/Service.Kapi.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL/Service.Kapi.BLL.csproj",
+        "projectName": "Service.Kapi.BLL",
+        "projectPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL/Service.Kapi.BLL.csproj",
+        "packagesPath": "/home/voidp34r/.nuget/packages/",
+        "outputPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/voidp34r/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj": {
+                "projectPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj",
+        "projectName": "Service.Kapi.DAL.MySql",
+        "projectPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.DAL.MySql/Service.Kapi.DAL.MySql.csproj",
+        "packagesPath": "/home/voidp34r/.nuget/packages/",
+        "outputPath": "/home/voidp34r/dev/kapi/Service.Kapi/Service.Kapi.DAL.MySql/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/voidp34r/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.7, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

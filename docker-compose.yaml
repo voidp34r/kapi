@@ -1,0 +1,47 @@
+version: "3.7"
+services:
+  kapi:
+    container_name: kapi
+    image: voidp34r/dotnet:mysql
+    # environment:
+    # expose:
+    #   - "5000"
+    #   - "5001"
+    ports:
+      - 5000:5000
+      - 5001:5001
+      - 3306:3306
+    # links: 
+    #   - mysql:mysql
+    working_dir: /Service.Kapi
+    volumes: 
+      - ./Service.Kapi:/Service.Kapi
+    command: 
+      - bash
+      - -c
+      - mysql -u root -proot -e "CREATE DATABASE usersdb" && mysql mysql -u root -proot usersdb < Service.Kapi.DbUp.MySql/Scripts/script0002-createTable_users.sql && /etc/init.d/mysql start && cd Service.Kapi.API && dotnet build -v n && cd ../Service.Kapi.DbUp.MySql && dotnet run -v n
+    network_mode: host
+    entrypoint: 
+      - sh
+      - -c
+      - /etc/init.d/mysql start && mysql -u root -proot -e "CREATE DATABASE usersdb" && mysql -u root -proot usersdb < Service.Kapi.DbUp.MySql/Scripts/script0002-createTable_users.sql && cd Service.Kapi.API && dotnet watch run -v n
+      # - exec tail -f /dev/null
+
+  mysql:
+    container_name: mysql
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "root"
+    expose:
+    - "3306"
+    - "3307"
+    ports:
+      - 3307:3306
+    volumes:
+      - /home/voidp34r/Docker/Volumes/MySql:/var/lib/mysql
+    network_mode: host
+    entrypoint: 
+      - sh
+      - -c
+      - /etc/init.d/mysql start && mysql -u root -proot -e "CREATE DATABASE usersdb" && mysql -u root -proot usersdb < Service.Kapi.DbUp.MySql/Scripts/script0002-createTable_users.sql && cd Service.Kapi.API && dotnet watch run -v n

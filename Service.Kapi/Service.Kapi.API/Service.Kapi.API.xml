@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Service.Kapi.API</name>
+    </assembly>
+    <members>
+        <member name="M:Service.Kapi.API.Controllers.AccountController.GenerateToken">
+            <summary>
+            Generate sample token
+            </summary>
+            <returns>Generated token</returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.AccountController.Authenticate(System.String,System.String)">
+            <summary>
+            Validate sample token
+            </summary>
+            <param name="token">Token for validation</param>
+            <returns>Token validation status</returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.HomesController.#ctor(AutoMapper.IMapper,Service.Kapi.BLL.Contracts.IHomesService)">
+            <summary>
+            Homes db api
+            </summary>
+            <param name="mapper"></param>
+            <param name="homesService"></param>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.HomesController.CreateHomeAsync(Service.Kapi.API.Models.Home)">
+            <summary>
+            Create a new home
+            </summary>
+            <param name="home"></param>
+            <returns>Returns created home</returns>           
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.HomesController.GetHomeAsync(System.Guid)">
+            <summary>
+            Get home by id
+            </summary>
+            <param name="id">Home Id</param>
+            <returns>Returns finded home</returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.HomesController.UpdateHomeAsync(System.Guid,Service.Kapi.API.Models.Home)">
+            <summary>
+            Update existing home
+            </summary>
+            <param name="id">Home id</param>
+            <param name="home">Home parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.HomesController.DeleteHomeAsync(System.Guid)">
+            <summary>
+            Delete home
+            </summary>
+            <param name="id">Home id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.HomesController.GetHomesListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get homes list
+            </summary>
+            <param name="pageNumber">Page number</param>
+            <param name="pageSize">Page size</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.TodoController.#ctor(AutoMapper.IMapper,Service.Kapi.BLL.TodosMockProxyService)">
+            <summary>
+            Todos mock web proxy 
+            </summary>
+            <param name="mapper"></param>
+            <param name="usersService"></param>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.TodoController.GetTodoById(System.Int32)">
+            <summary>
+            Get todo by id
+            </summary>
+            <param name="id">Todo id</param>     
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.TodoController.GetTodos">
+            <summary>
+            Get todos list from remote mock api
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.TokenController.GenerateToken">
+            <summary>
+            Generate sample token
+            </summary>       
+            <returns>Generated token</returns>        
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.TokenController.ValidateToken(System.String)">
+            <summary>
+            Validate sample token
+            </summary>
+            <param name="token">Token for validation</param>
+            <returns>Token validation status</returns>        
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersController.#ctor(AutoMapper.IMapper,Service.Kapi.BLL.Contracts.IUsersService)">
+            <summary>
+            Users db api
+            </summary>
+            <param name="mapper"></param>
+            <param name="usersService"></param>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersController.CreateUserAsync(Service.Kapi.API.Models.User)">
+            <summary>
+            Create a new user
+            </summary>
+            <param name="user"></param>
+            <returns>Returns created user</returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersController.GetUserAsync(System.Guid)">
+            <summary>
+            Get user by id
+            </summary>
+            <param name="id">User Id</param>
+            <returns>Returns finded user</returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersController.UpdateUserAsync(System.Guid,Service.Kapi.API.Models.User)">
+            <summary>
+            Update existing user
+            </summary>
+            <param name="id">User id</param>
+            <param name="user">User parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersController.DeleteUserAsync(System.Guid)">
+            <summary>
+            Delete user
+            </summary>
+            <param name="id">User id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersController.GetUsersListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get users list
+            </summary>
+            <param name="pageNumber">Page number</param>
+            <param name="pageSize">Page size</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Kapi.API.Controllers.UsersV0Controller.GetUsersV0ListAsync(System.Int32)">
+            <summary>
+            Get users list
+            </summary>       
+            <param name="limit">Items count</param>
+            <returns></returns>
+        </member>
+        <member name="T:Service.Kapi.API.Models.Home">
+            <summary>
+            Home type
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.Id">
+            <summary>
+            Home id
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.Name">
+            <summary>
+            Home name
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.Block">
+            <summary>
+            Home number
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.Number">
+            <summary>
+            Home number
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.HomeType">
+            <summary>
+            Home type
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.Lives">
+            <summary>
+            Home Lives
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.CreatedOn">
+            <summary>
+            CreatedOn
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Home.ModifiedOn">
+            <summary>
+            ModifiedOn
+            </summary>
+        </member>
+        <member name="T:Service.Kapi.API.Models.HomeType">
+            <summary>
+            Home type
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.HomeType.House">
+            <summary>
+            House
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.HomeType.Apartament">
+            <summary>
+            Apartament
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.HomeType.kitnet">
+            <summary>
+            kitnet
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.HomeType.loft">
+            <summary>
+            loft
+            </summary>
+        </member>
+        <member name="T:Service.Kapi.API.Models.Todo">
+            <summary>
+            Todo item
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Todo.Id">
+            <summary>
+            Todo id
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.Todo.Title">
+            <summary>
+            Todo title
+            </summary> 
+        </member>
+        <member name="P:Service.Kapi.API.Models.Todo.Completed">
+            <summary>
+            Todo status
+            </summary>        
+        </member>
+        <member name="T:Service.Kapi.API.Models.User">
+            <summary>
+            User type
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Id">
+            <summary>
+            User id
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Name">
+            <summary>
+            User  name
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.UserType">
+            <summary>
+            User type
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Email">
+            <summary>
+            User email
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Password">
+            <summary>
+            User password
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Cpf">
+            <summary>
+            User cpf
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Birth">
+            <summary>
+            User birth 
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Telephone">
+            <summary>
+            User telephone
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.Deleted">
+            <summary>
+            Deleted
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.CreatedOn">
+            <summary>
+            CreatedOn
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.ModifiedOn">
+            <summary>
+            ModifiedOn
+            </summary>
+        </member>
+        <member name="P:Service.Kapi.API.Models.User.DeletedOn">
+            <summary>
+            DeletedOn
+            </summary>
+        </member>
+        <member name="T:Service.Kapi.API.Models.UserType">
+            <summary>
+            User type
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.UserType.Owner">
+            <summary>
+            Owner
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.UserType.Admin">
+            <summary>
+            Admin
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.UserType.Editor">
+            <summary>
+            Editor
+            </summary>
+        </member>
+        <member name="F:Service.Kapi.API.Models.UserType.Reader">
+            <summary>
+            Reader
+            </summary>
+        </member>
+        <member name="T:Service.Kapi.API.Swagger.SwaggerDefaultValues">
+            <summary>
+            Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
+            </summary>
+            <remarks>This <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter"/> is only required due to bugs in the <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator"/>.
+            Once they are fixed and published, this class can be removed.</remarks>
+        </member>
+        <member name="M:Service.Kapi.API.Swagger.SwaggerDefaultValues.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Applies the filter to the specified operation using the given context.
+            </summary>
+            <param name="operation">The operation to apply the filter to.</param>
+            <param name="context">The current operation filter context.</param>
+        </member>
+    </members>
+</doc>

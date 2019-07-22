@@ -1,0 +1,192 @@
+2019-07-22 08:41:56.636 -03:00 [Information] web api service is started.
+2019-07-22 08:44:36.047 -03:00 [Information] HTTP "GET" "/" responded 404 in 161.1103 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:47.590 -03:00 [Information] HTTP "GET" "/swagger" responded 301 in 0.7416 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:48.916 -03:00 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 1223.4129 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:49.138 -03:00 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 198.7533 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:49.488 -03:00 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 92.5332 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:49.605 -03:00 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 242.0458 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:50.442 -03:00 [Information] HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 20.9987 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:50.747 -03:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 382.4660 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:44:54.764 -03:00 [Information] HTTP "GET" "/swagger/v0.9/swagger.json" responded 200 in 4.3874 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html?urls.primaryName=V0.9"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:45:08.031 -03:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 15.8362 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html?urls.primaryName=V1"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:45:39.561 -03:00 [Information] HTTP "GET" "/api/v1/homes" responded 400 in 105.6021 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html?urls.primaryName=V1"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:58:16.841 -03:00 [Information] HTTP "GET" "/" responded 307 in 2.0718 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:""][User-Agent:"curl/7.64.0"]
+2019-07-22 08:58:24.269 -03:00 [Information] HTTP "GET" "/" responded 307 in 0.0712 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:""][User-Agent:"curl/7.64.0"]
+2019-07-22 08:58:41.734 -03:00 [Information] HTTP "GET" "/" responded 307 in 0.0495 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 08:58:41.765 -03:00 [Information] HTTP "GET" "/" responded 404 in 0.0949 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:13:36.510 +00:00 [Information] web api service is started.
+2019-07-22 12:14:14.974 +00:00 [Information] web api service is started.
+2019-07-22 12:16:03.749 +00:00 [Information] web api service is started.
+2019-07-22 12:16:11.796 +00:00 [Information] web api service is started.
+2019-07-22 12:18:16.921 +00:00 [Information] web api service is started.
+2019-07-22 12:18:34.941 +00:00 [Information] HTTP "GET" "/" responded 307 in 86.5794 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:18:37.166 +00:00 [Information] HTTP "GET" "/" responded 404 in 54.6813 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:18:41.604 +00:00 [Information] HTTP "GET" "/" responded 404 in 0.1412 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:05.514 +00:00 [Information] HTTP "GET" "/" responded 307 in 0.1003 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5000"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:05.517 +00:00 [Information] HTTP "GET" "/" responded 404 in 0.0547 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:09.619 +00:00 [Information] HTTP "GET" "/sa" responded 404 in 0.1310 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:13.275 +00:00 [Information] HTTP "GET" "/swagger" responded 301 in 0.8083 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:13.771 +00:00 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 490.8070 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:13.802 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 16.0083 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:13.861 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 29.9185 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:13.862 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 54.6015 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:14.122 +00:00 [Information] HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.2886 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:14.466 +00:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 358.4615 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:21.616 +00:00 [Information] HTTP "GET" "/api/v1/users" responded 401 in 90.9704 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:30.079 +00:00 [Information] HTTP "POST" "/api/auth/login" responded 400 in 467.0275 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:19:34.739 +00:00 [Information] HTTP "POST" "/api/auth/login" responded 404 in 568.2226 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 12:22:01.251 +00:00 [Information] web api service is started.
+2019-07-22 12:28:23.875 +00:00 [Information] web api service is started.
+2019-07-22 15:22:22.696 +00:00 [Information] web api service is started.
+2019-07-22 15:39:17.773 +00:00 [Information] web api service is started.
+2019-07-22 15:41:24.737 +00:00 [Information] web api service is started.
+2019-07-22 15:45:21.073 +00:00 [Information] web api service is started.
+2019-07-22 15:47:16.258 +00:00 [Information] web api service is started.
+2019-07-22 15:49:48.712 +00:00 [Information] web api service is started.
+2019-07-22 15:53:07.186 +00:00 [Information] HTTP "GET" "/swagger" responded 301 in 53.5045 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:07.403 +00:00 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 191.6096 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:07.453 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 35.7653 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:07.486 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 25.9410 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:07.488 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 21.7151 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:07.768 +00:00 [Information] HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.5749 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:08.045 +00:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 317.3637 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:12.740 +00:00 [Information] HTTP "GET" "/api/v1/homes" responded 401 in 114.1578 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:26.352 +00:00 [Information] HTTP "POST" "/api/auth/login" responded 400 in 417.9217 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:29.915 +00:00 [Information] HTTP "POST" "/api/auth/login" responded 404 in 61.1939 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:53:47.123 +00:00 [Information] HTTP "GET" "/api/token/generate" responded 200 in 32.5175 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 15:54:16.512 +00:00 [Error] HTTP "GET" "/api/v1/users" responded 500 in 24.5237 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Headers:[("Connection": "keep-alive"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"), ("Host": "localhost:5001"), ("Referer": "https://localhost:5001/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"), ("DNT": "1")]]
+System.ArgumentException: Option not supported.
+Parameter name: localhost
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder.GetOption(String key)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder..ctor(String connStr, Boolean isXProtocol)
+   at MySql.Data.MySqlClient.MySqlConnection.set_ConnectionString(String value)
+   at Service.Kapi.DAL.MySql.UsersRepository.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.DAL.MySql/UsersRepository.cs:line 128
+   at Service.Kapi.BLL.UsersService.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.BLL/UsersService.cs:line 44
+   at Service.Kapi.API.Controllers.UsersController.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.API/Controllers/UsersController.cs:line 146
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Service.Kapi.API.Middleware.HttpContextMiddleware.Invoke(HttpContext httpContext) in /Service.Kapi/Service.Kapi.API/Middlewares/HttpContextMiddleware.cs:line 40
+2019-07-22 15:54:32.501 +00:00 [Information] HTTP "GET" "/api/v1/homes" responded 400 in 17.8082 ms [User:null][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:28:27.160 +00:00 [Information] HTTP "GET" "/api/v1/homes" responded 400 in 3.1170 ms [User:null][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:28:53.147 +00:00 [Error] HTTP "GET" "/api/v1/users" responded 500 in 1.4389 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Headers:[("Connection": "keep-alive"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"), ("Host": "localhost:5001"), ("Referer": "https://localhost:5001/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"), ("DNT": "1")]]
+System.ArgumentException: Option not supported.
+Parameter name: localhost
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder.GetOption(String key)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder..ctor(String connStr, Boolean isXProtocol)
+   at MySql.Data.MySqlClient.MySqlConnection.set_ConnectionString(String value)
+   at Service.Kapi.DAL.MySql.UsersRepository.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.DAL.MySql/UsersRepository.cs:line 128
+   at Service.Kapi.BLL.UsersService.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.BLL/UsersService.cs:line 44
+   at Service.Kapi.API.Controllers.UsersController.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.API/Controllers/UsersController.cs:line 146
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Service.Kapi.API.Middleware.HttpContextMiddleware.Invoke(HttpContext httpContext) in /Service.Kapi/Service.Kapi.API/Middlewares/HttpContextMiddleware.cs:line 40
+2019-07-22 16:29:00.912 +00:00 [Error] HTTP "GET" "/api/v1/users" responded 500 in 1.3140 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Headers:[("Connection": "keep-alive"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"), ("Host": "localhost:5001"), ("Referer": "https://localhost:5001/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"), ("DNT": "1")]]
+System.ArgumentException: Option not supported.
+Parameter name: localhost
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder.GetOption(String key)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder..ctor(String connStr, Boolean isXProtocol)
+   at MySql.Data.MySqlClient.MySqlConnection.set_ConnectionString(String value)
+   at Service.Kapi.DAL.MySql.UsersRepository.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.DAL.MySql/UsersRepository.cs:line 128
+   at Service.Kapi.BLL.UsersService.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.BLL/UsersService.cs:line 44
+   at Service.Kapi.API.Controllers.UsersController.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.API/Controllers/UsersController.cs:line 146
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Service.Kapi.API.Middleware.HttpContextMiddleware.Invoke(HttpContext httpContext) in /Service.Kapi/Service.Kapi.API/Middlewares/HttpContextMiddleware.cs:line 40
+2019-07-22 16:29:10.049 +00:00 [Information] HTTP "POST" "/api/v1/users" responded 400 in 106.4042 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:35:40.954 +00:00 [Information] web api service is started.
+2019-07-22 16:40:51.595 +00:00 [Information] web api service is started.
+2019-07-22 16:42:29.685 +00:00 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 246.6104 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:""][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:42:29.739 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 31.9257 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:42:29.748 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 7.2783 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:42:29.765 +00:00 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 25.9699 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:42:30.009 +00:00 [Information] HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.3864 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:42:30.293 +00:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 306.8829 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]
+2019-07-22 16:42:35.376 +00:00 [Error] HTTP "GET" "/api/v1/users" responded 500 in 571.8586 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Headers:[("Connection": "keep-alive"), ("Accept": "application/json"), ("Accept-Encoding": "gzip, deflate, br"), ("Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"), ("Host": "localhost:5001"), ("Referer": "https://localhost:5001/swagger/index.html"), ("User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"), ("DNT": "1")]]
+System.ArgumentException: Option not supported.
+Parameter name: localhost
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder.GetOption(String key)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder..ctor(String connStr, Boolean isXProtocol)
+   at MySql.Data.MySqlClient.MySqlConnection.set_ConnectionString(String value)
+   at Service.Kapi.DAL.MySql.UsersRepository.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.DAL.MySql/UsersRepository.cs:line 128
+   at Service.Kapi.BLL.UsersService.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.BLL/UsersService.cs:line 44
+   at Service.Kapi.API.Controllers.UsersController.GetUsersListAsync(Int32 pageNumber, Int32 pageSize) in /Service.Kapi/Service.Kapi.API/Controllers/UsersController.cs:line 146
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Service.Kapi.API.Middleware.HttpContextMiddleware.Invoke(HttpContext httpContext) in /Service.Kapi/Service.Kapi.API/Middlewares/HttpContextMiddleware.cs:line 40
+2019-07-22 16:42:47.233 +00:00 [Information] HTTP "POST" "/api/v1/users" responded 400 in 132.3329 ms [User:"unknown"][Protocol:"HTTP/1.1"][Host:"localhost:5001"][Referer:"https://localhost:5001/swagger/index.html"][User-Agent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"]

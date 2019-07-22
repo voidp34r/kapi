@@ -1,0 +1,14 @@
+DROP DATABASE `homesdb`;
+CREATE DATABASE IF NOT EXISTS `homesdb` DEFAULT CHARACTER SET utf8;
+USE `homesdb`;
+CREATE TABLE IF NOT EXISTS `homes` (
+  `id` VARCHAR(36) NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `block` VARCHAR(45) NOT NULL,
+  `number` VARCHAR(9) NOT NULL,
+  `hometype` TINYINT(1) NOT NULL,
+  `lives` JSON NULL,
+  `createdon` DATETIME NULL,
+  `modifiedon` DATETIME NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB CHARSET=utf8;
