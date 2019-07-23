@@ -1,17 +1,103 @@
-# [KAPI]
+# [WebAPI]
 
+### WebAPI  with JWT token auth, DB connection and HTTP client proxy.
 
-Description.
+Projects description
 
-## Quick start
+----
 
-Quick start options:
+ - Service.Kapi.API project - web api with system configurations (auth, logging, api docs)
+ - Service.Kapi.Configuration project - configuration for logic services and repositories
+ - Service.Kapi.BLL project - logic services
+ - Service.Kapi.DAL.MySql project - repositories
+ - Service.Kapi.BLL.Tests project - unit test for BLL logic
+ - Service.Kapi.DbUp.MySql project - MySql database migrations
 
-- `npm i material-dashboard-react`
-- Clone the repo: `git clone https://github.com/voidp34r/app.git`.
+Usings
 
+----
+ - .NET Core 2.2
+ - Serilog for logging and exception handling
+ - AutoMapper for models mappings
+ - API versioning
+ - Swagger for API documentation
+ - Micro-ORM Dapper with MySql repository  
+ - DbUp for database migrations
+ - .NET Core builtin HttpClientFactory with Polly (https://jsonplaceholder.typicode.com/ as fake mock api)
+ - XUnit with Moq and AutoFixture for unit test
 
-## Documentation
-The documentation for the Material Dashboard React is hosted at our [website](https://demos.creative-tim.com/material-dashboard-react/#/documentation/tutorial).
+# Quick start
 
+## Configuration Strings
+
++Database migration Service.Kapi\Service.Kapi.API\appsettings.json
++Database migration Service.Kapi\Service.Kapi.DbUp.MySql\appsettings.json
+
+  ```bash
+  {
+  "ConnectionStrings": {
+    "MainDB": "server=localhost;database=kapi;uid=root;pwd=root;",
+    "SecundaryDB": "server=localhost;database=kapi;uid=root;pwd=root;"
+    }
+  }
+
+  ```
+
+  +Database migration Service.Kapi\Service.Kapi.API\appsettings.json
++Database migration Service.Kapi\Service.Kapi.DbUp.MySql\appsettings.json
+
+  ```bash
+  {
+  "ConnectionStrings": {
+    "MainDB": "server=localhost;database=kapi;uid=root;pwd=root;"
+    "SecundaryDB": "server=localhost;database=kapi;uid=root;pwd=root;"
+    }
+  }
+
+  ```
+
+## Database
+
++Run dotnet restore for install dependences
+
+  ```bash
+  > dotnet restore .\Service.Kapi\Service.Kapi.DbUp.MySql\
+  ```
+
++Run dotnet build
+  
+  ```bash
+  > dotnet build -v n .\Service.Kapi\Service.Kapi.DbUp.MySql\
+  ```
+
++Run dotnet run for start
+
+  ```bash
+  > cd .\Service.Kapi\Service.Kapi.DbUp.MySql\ && dotnet run -v n  
+  ```
+## Service API
+
++ Clone the repo
+
+  ```bash
+  > git clone https://github.com/voidp34r/kapi.git
+  ```
+
++ Run dotnet restore for install dependences
+
+  ```bash
+  > dotnet restore .\Service.Kapi\Service.Kapi.API\
+  ```
+
++ Run dotnet build
+  
+  ```bash
+  > dotnet build -b n .\Service.Kapi\Service.Kapi.API\
+  ```
+
++ Run dotnet run for start service
+
+  ```bash
+  > dotnet run -v n .\Service.Kapi\Service.Kapi.API\
+  ```
 
