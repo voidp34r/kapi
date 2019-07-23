@@ -3,16 +3,10 @@ services:
   kapi:
     container_name: kapi
     image: voidp34r/dotnet:mysql
-    # environment:
-    # expose:
-    #   - "5000"
-    #   - "5001"
     ports:
       - 5000:5000
       - 5001:5001
       - 3306:3306
-    # links: 
-    #   - mysql:mysql
     working_dir: /Service.Kapi
     volumes: 
       - ./Service.Kapi:/Service.Kapi

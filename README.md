@@ -30,29 +30,28 @@ Usings
 
 ## Configuration Strings
 
-+Database migration Service.Kapi\Service.Kapi.API\appsettings.json
-+Database migration Service.Kapi\Service.Kapi.DbUp.MySql\appsettings.json
++Database migration .\Service.Kapi\Service.Kapi.DbUp.MySql\appsettings.json
 
   ```bash
   {
   "ConnectionStrings": {
-    "MainDB": "server=localhost;database=kapi;uid=root;pwd=root;",
-    "SecundaryDB": "server=localhost;database=kapi;uid=root;pwd=root;"
+    "MainDB": "server=localhost;database=maindb;uid=root;pwd=root;",
+    "ConnectionString": "server=localhost;database=kapi;uid=root;pwd=root;"
     }
   }
 
   ```
 
-  +Database migration Service.Kapi\Service.Kapi.API\appsettings.json
-+Database migration Service.Kapi\Service.Kapi.DbUp.MySql\appsettings.json
+  +Database service .\Service.Kapi\Service.Kapi.API\appsettings.json
 
   ```bash
   {
   "ConnectionStrings": {
-    "MainDB": "server=localhost;database=kapi;uid=root;pwd=root;"
-    "SecundaryDB": "server=localhost;database=kapi;uid=root;pwd=root;"
-    }
-  }
+    "MainDB": "server=localhost;database=kapi;uid=root;pwd=root;",
+    "ConnectionString": "server=localhost;database=kapi;uid=root;pwd=root;",
+    "UsersDbConnectionString": "server=localhost;database=maindb;uid=root;pwd=root;",
+    "HomesDbConnectionString": "server=localhost;database=maindb;uid=root;pwd=root;"
+  },
 
   ```
 
@@ -101,3 +100,16 @@ Usings
   > dotnet run -v n .\Service.Kapi\Service.Kapi.API\
   ```
 
+## Docker 
+
++ Docker build
+
+  ```bash
+  > docker build -t kapi .
+  ```
+
++ Docker compose
+
+  ```bash
+  > docker-compose -f "docker-compose.yaml" up
+  ```

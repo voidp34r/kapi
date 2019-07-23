@@ -52,7 +52,7 @@ namespace Service.Kapi.API.Middleware
                 PushProperties(sw.Elapsed.TotalMilliseconds, httpContext, errorId);
                 Log.Error(ex, ErrorMessageTemplate, httpContext.Request.Method, httpContext.Request.Path, 500, sw.Elapsed.TotalMilliseconds);
 
-                await httpContext.Response.WriteAsync(JsonConvert.SerializeObject(new { errorId }));
+                await httpContext.Response.WriteAsync(JsonConvert.SerializeObject(new { errorId, ex.Message }));
             }
         }
 

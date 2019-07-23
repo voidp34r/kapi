@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Service.Kapi.API.Controllers
 {
-    // [Authorize]
+    [Authorize]
     [Produces("application/json")]
     [Route("api/v{version:apiVersion}/users")]
     [ApiVersion("1.0")]
